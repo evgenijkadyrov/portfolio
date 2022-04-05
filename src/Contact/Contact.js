@@ -9,10 +9,10 @@ const Contact = () => {
                 <div className={style.contacts}>
                     <h2 className={style.title}>Contacts</h2>
                     <form className={style.form}>
-<input type={'text'} className={style.input} placeholder={'Your Name'}/>
-<input type={'number'} className={style.input} placeholder={'Your telefon'}/>
-<input type={'email'} className={style.input} placeholder={'Your email'}/>
-<textarea className={style.textarea} placeholder={'Message'} rows="4"/>
+                        <input type={'text'} className={style.input} placeholder={'Your Name'}/>
+                        <input type={'number'} className={style.input} placeholder={'Your telefon'}/>
+                        <input type={'email'} className={style.input} placeholder={'Your email'}/>
+                        <textarea className={style.textarea} placeholder={'Message'} rows="4"/>
 
                     </form>
                     <input className={style.input} type='submit'/>

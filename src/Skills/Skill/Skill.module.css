@@ -1,4 +1,4 @@
-.skill{
+.skill {
     width: 300px;
     background-color: #b3e8f8;
     display: flex;
@@ -7,11 +7,13 @@
     text-align: center;
 
 }
-.icon{
+
+.icon {
     height: 60px;
-    width:60px;
+    width: 60px;
     background-color: #2b2a2a;
 }
-.description{
+
+.description {
 
 }

@@ -6,7 +6,7 @@
 .projects_container {
     flex-direction: column;
     justify-content: flex-start;
-   }
+}
 
 .title {
     font-size: 28px;
@@ -14,10 +14,10 @@
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-   }
+}
 
 .projects {
-       width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
