@@ -1,0 +1,24 @@
+.projects_wrapper {
+    background-color: #e7efbf;
+    min-height: 100vh;
+}
+
+.projects_container {
+    flex-direction: column;
+    justify-content: flex-start;
+   }
+
+.title {
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+   }
+
+.projects {
+       width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
