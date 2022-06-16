@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .header {
     height: 80px;
     background-color: #bed2d7;

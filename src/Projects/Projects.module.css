@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 .projects_wrapper {
-    background-color: #e7efbf;
+    background-color: rgba(190, 198, 199, 0.83);
     min-height: 100vh;
 }
 
@@ -8,17 +12,18 @@
     justify-content: flex-start;
 }
 
-.title {
-    font-size: 28px;
-    font-weight: 800;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-}
 
 .projects {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+@media screen and (max-width: 1129px) {
+    .projects {
+        justify-content: center;
+    }
 }

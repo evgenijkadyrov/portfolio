@@ -1,6 +1,6 @@
 .project {
     width: 350px;
-    border: 1px solid;
+    margin-top:15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,24 +16,52 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
-
+.foto::before{
+    position: absolute;
+    content: '';
+    background-color: #2b2a2a;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.4;
+}
 .btn {
     width: 100px;
     height: 40px;
     font-size: 16px;
     opacity: 0.6;
     border-radius: 10px;
+    position: relative;
+    z-index: 1;
 }
 
 .btn a {
     text-decoration: none;
 }
-
-.title {
-
+.projectInfo{
+    padding:15px 15px
+}
+.projectTitle {
+    font-family: Oswald,sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: #202020;
+    font-weight: 700;
+    margin-top: 0;
+    text-align: center;
 }
 
-.description {
-
+.projectDescription {
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    margin: 15px 0;
+    color: #888;
+    line-height: 1.8em;
+    text-align: center;
 }

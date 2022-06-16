@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .mainContainer {
     height: 100vh;
     background-color: #e7efbf;
