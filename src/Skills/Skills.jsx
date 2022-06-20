@@ -12,7 +12,7 @@ import gitIcon from '../assets/icons/logos_git-icon.svg'
 import jsIcon from '../assets/icons/vscode-icons_file-type-js-official.svg'
 import tsIcon from '../assets/icons/typescript-logo.svg'
 import muiIcon from '../assets/icons/material-ui-1.svg'
-import reduxIcon from '../assets/icons/redux.svg'
+import reduxIcon from '../assets/icons/material-ui-1.svg'
 
 
 const Skills = () => {
