@@ -1,9 +1,10 @@
+@import "src/common/styles/sass/variables";
 *{
     box-sizing: border-box;
 }
 .mainContainer {
     height: 100vh;
-    background-color: #e7efbf;
+    background-color: $bgcolor1;
 }
 
 .container {

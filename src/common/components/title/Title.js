@@ -1,4 +1,4 @@
-import styleP from "./Title.module.css";
+import styleP from "./Title.module.scss";
 
 const Title = (props) => {
     return (
