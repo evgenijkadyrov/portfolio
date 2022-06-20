@@ -1,0 +1,25 @@
+@import "src/common/styles/sass/variables";
+.skill {
+  width: 220px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .icon img {
+margin-top:10px;
+    height: 80px;
+    width: 80px;
+
+  }
+& h4{
+  color:$textColor;
+}
+  .description {
+
+  }
+
+}
+
+

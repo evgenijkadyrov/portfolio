@@ -2,26 +2,27 @@
 .skills_wrapper {
     min-height: 100vh;
     background-color: $bgcolor2;
-
+    .skills_container {
+        flex-direction: column;
+        justify-content: flex-start;
+        .skills {
+            border: 1px solid;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top:45px;
+        }
+    }
 }
 
-.skills_container {
-    flex-direction: column;
-    justify-content: flex-start;
-}
 
+/*
 .title {
     font-size: 28px;
     font-weight: 800;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-}
+}*/
 
-.skills {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
