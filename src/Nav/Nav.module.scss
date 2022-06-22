@@ -1,8 +1,15 @@
+@import "src/common/styles/sass/variables";
 .nav {
+
     width: 300px;
     border: 1px solid red;
     display: flex;
     justify-content: space-between;
+
+    & a{
+        text-decoration: none;
+        color:#CCCCCC;
+    }
 }
 
 .nav_link {

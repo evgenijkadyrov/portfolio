@@ -1,9 +1,10 @@
+@import "src/common/styles/sass/variables";
 *{
     box-sizing: border-box;
 }
 .header {
     height: 80px;
-    background-color: #bed2d7;
+    background-color: $bgcolor1;
     display: flex;
     justify-content: flex-end;
     align-items: center;

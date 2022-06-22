@@ -12,6 +12,9 @@
             justify-content: space-between;
             flex-wrap: wrap;
             margin-top:45px;
+            @media screen and (max-width: 1129px) {
+                justify-content: center;}
+
         }
     }
 }
