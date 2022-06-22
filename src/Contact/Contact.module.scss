@@ -1,4 +1,5 @@
 @import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
 
 .contact_wrapper {
     min-height: 500px;
@@ -13,10 +14,10 @@
         justify-content: space-between;
 
         .title {
+            @include text($TitleFontFamily, 48px, 26px, $textColor);
             color:#CCCCCC;
-            font-size: 28px;
-            font-weight: 800;
-            text-transform: uppercase;
+            font-weight: 600;
+
             display: flex;
             justify-content: center;
         }
@@ -30,12 +31,20 @@
             .input {
                 margin-bottom: 20px;
                 height: 22px;
+                background-color: #CCCCCC;
             }
 
             .textarea {
                 margin-bottom: 20px;
+                background-color: #CCCCCC;
 
             }
+
+        }
+        .input {
+            margin-bottom: 20px;
+            height: 22px;
+            background-color: #CCCCCC;
         }
     }
 }
