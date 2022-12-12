@@ -8,14 +8,11 @@
   background-color: $bgcolor1;
   min-height: 100vh;
 
-
   .projects_container {
-
     flex-direction: column;
     justify-content: flex-start;
 
     .projects {
-
       width: 100%;
       display: flex;
       justify-content: space-between;
@@ -25,12 +22,7 @@
 
       @media screen and (max-width: 1129px) {
         justify-content: center;
-
       }
     }
   }
 }
-
-
-
-

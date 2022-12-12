@@ -8,18 +8,13 @@
   text-align: center;
 
   .icon img {
-margin-top:10px;
+    margin-top: 10px;
     height: 80px;
     width: 80px;
-
   }
-& h4{
-  color:$textColor;
-}
+  & h4 {
+    color: $textColor;
+  }
   .description {
-
   }
-
 }
-
-

@@ -1,33 +1,28 @@
 @import "src/common/styles/sass/variables";
 .footer_wrapper {
-    height: 80px;
-    background-color: $primaryColor;
-    .container {
-        display: flex;
-        justify-content: center;
+  height: 80px;
+  background-color: $primaryColor;
+  .container {
+    display: flex;
+    justify-content: center;
 
+    .items {
+      min-width: 275px;
+      max-width: 450px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid;
+      position: absolute;
 
-
-        .items {
-            min-width: 275px;
-            max-width: 450px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border: 1px solid;
-            position: absolute;
-
-
-            .icon {
-                height: 40px;
-                width: 40px;
-                background-color: #CCCCCC;
-            }
-            .round{
-                border-radius: 50%;
-            }
-        }
+      .icon {
+        height: 40px;
+        width: 40px;
+        background-color: #cccccc;
+      }
+      .round {
+        border-radius: 50%;
+      }
     }
+  }
 }
-
-

@@ -1,6 +1,6 @@
 @import "src/common/styles/sass/variables";
 .title {
-color:#CCCCCC;
+  color: #cccccc;
   background: 0 0;
   border: 0;
   margin: 0px;
@@ -15,28 +15,22 @@ color:#CCCCCC;
   float: left;
   position: relative;
   & h2 {
-    color:$textColor;
+    color: $textColor;
     font-family: $TitleFontFamily;
 
     font-weight: 600;
     font-size: 48px;
     line-height: 26px;
-    margin:15px 0px;
-
-
+    margin: 15px 0px;
   }
   &::before {
     position: absolute;
-    content: '';
+    content: "";
     background: $textColor;
     width: 50px;
     height: 1px;
     bottom: -25px;
     left: 50%;
     transform: translate(-50%, 50%);
-
   }
-
-
 }
-
