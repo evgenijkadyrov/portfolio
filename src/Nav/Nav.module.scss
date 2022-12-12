@@ -1,15 +1,20 @@
 @import "src/common/styles/sass/variables";
+
 .nav {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
 
-    width: 300px;
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-between;
+  & a {
+    text-decoration: none;
+    color: #CCCCCC;
+    scroll-behavior: smooth;
+     }
+  :hover {
+    color: #6b6bcb;
+  }
 
-    & a{
-        text-decoration: none;
-        color:#CCCCCC;
-    }
 }
 
 .nav_link {

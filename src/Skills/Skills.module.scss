@@ -1,7 +1,7 @@
 @import "src/common/styles/sass/variables";
 .skills_wrapper {
     min-height: 100vh;
-    background-color: $bgcolor2;
+
     .skills_container {
         flex-direction: column;
         justify-content: flex-start;
@@ -21,7 +21,7 @@
 
 
 /*
-.title {
+.Title {
     font-size: 28px;
     font-weight: 800;
     text-transform: uppercase;

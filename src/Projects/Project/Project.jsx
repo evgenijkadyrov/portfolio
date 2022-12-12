@@ -1,12 +1,11 @@
 import React from 'react';
 import style from './Project.module.scss'
 
-const Project = (props) => {
-    return (
+export const Project = (props) =>  (
         <div className={style.project}>
             <div className={style.foto} style={props.style}>
                 <button className={style.btn}>
-                    <a href={''}>View</a>
+                    <a href={props.url}>View</a>
                 </button>
             </div>
 
@@ -17,6 +16,5 @@ const Project = (props) => {
             </div>
         </div>
     );
-};
 
-export default Project;
+

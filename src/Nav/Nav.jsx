@@ -1,15 +1,16 @@
-import React from 'react';
-import style from './Nav.module.scss'
+import React from "react";
+import style from "./Nav.module.scss"
+import {LinkContainer} from "../common";
 
-const Nav = () => {
+export const Nav = () => {
     return (
         <div className={style.nav}>
-            <a href='Main'>Main</a>
-            <a href='Skills'>Skills</a>
-            <a href='Project'>Project</a>
-            <a href='Contact'>Contact</a>
+
+            <LinkContainer id='main' title='Main'/>
+            <LinkContainer id='skills' title='Skills'/>
+            <LinkContainer id='projects' title='Projects'/>
+            <LinkContainer id='contact' title='Contacts'/>
+
         </div>
     );
 };
-
-export default Nav;

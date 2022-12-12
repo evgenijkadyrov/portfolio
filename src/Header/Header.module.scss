@@ -3,10 +3,18 @@
     box-sizing: border-box;
 }
 .header {
+
     height: 80px;
     background-color: $bgcolor1;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-right: 20px;
+    position:fixed;
+    width: 100%;
+
+
+    z-index: 99;
+
+
 }

@@ -1,8 +1,8 @@
 @import "./variables";
-@mixin text($font-family, $font-size,$line-height,$color ){
-  font-family: $font-family;
-  font-size: $font-size;
-  line-height: $line-height;
+@mixin text($fontFamily, $fontSize,$lineHeight,$color ){
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
   text-align: center;
     color: $color;
 }
