@@ -5,7 +5,7 @@ import React from "react";
 export const LinkContainer = (props) => {
   return (
     <Link
-      activeClass={style.active}
+
       to={props.id}
       spy={true}
       smooth={true}

@@ -1,17 +1,21 @@
 @import "src/common/styles/sass/variables";
 .skills_wrapper {
-  min-height: 100vh;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
 
   .skills_container {
+    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    align-items: center;
     .skills {
-      border: 1px solid;
       width: 100%;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      margin-top: 45px;
+      margin-top: 85px;
       @media screen and (max-width: 1129px) {
         justify-content: center;
       }

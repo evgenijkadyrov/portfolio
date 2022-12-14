@@ -1,0 +1,64 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    /* space for error message */
+    padding-bottom: 24px;
+}
+
+.superInput {
+    display: block;
+    /* width: 280px; */
+    width: 100%;
+    height: 46px;
+    padding: 0 10px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    color: #343a40;
+    outline: none;
+
+}
+
+.superInput.passwordType {
+    padding: 0 50px 0 10px;
+}
+
+.superInput:focus-visible {
+    outline: none;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2)
+}
+
+.label {
+    position: relative;
+}
+
+.passwordTypeIcon {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    -webkit-user-drag: none;
+    cursor: pointer;
+}
+
+.title {
+    /* todo: remove style */
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.errorInput {
+    border: 1px solid #D32F2F;
+}
+
+.errorSpan {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 22px;
+    padding-left: 10px;
+    color: #D32F2F;
+    font-size: 14px;
+}

@@ -4,8 +4,8 @@ import style from "./Project.module.scss";
 export const Project = (props) => (
   <div className={style.project}>
     <div className={style.foto} style={props.style}>
-      <button className={style.btn}>
-        <a href={props.url}>View</a>
+      <button className={style.btn} >
+        <a href={props.url} target={"_blank"}>View</a>
       </button>
     </div>
 

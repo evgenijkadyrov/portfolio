@@ -26,7 +26,7 @@ export const Projects = () => (
               backgroundImage: `url(${todoImage})`,
             }}
             title="ToDoList"
-            url={""}
+            url={"https://github.com/evgenijkadyrov/todolist_v2.0"}
             description="Lorem ipsu fugiat hic, libero, nesciunt numquam pariatur quas suscipit temporibus vero voluptatem."
           />
           <Project

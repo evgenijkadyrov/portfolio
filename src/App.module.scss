@@ -1,5 +1,6 @@
 @import "src/common/styles/sass/variables";
 .app {
+
   > div {
     &:nth-child(n) {
       background-color: $bgcolor1;

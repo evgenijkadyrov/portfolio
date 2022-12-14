@@ -1,12 +1,11 @@
 @import "src/common/styles/sass/variables";
 
-* {
-  box-sizing: border-box;
-}
 
 .projects_wrapper {
-  background-color: $bgcolor1;
-  min-height: 100vh;
+  padding: 30px;
+   min-height: 800px;
+  display: flex;
+  align-items: center;
 
   .projects_container {
     flex-direction: column;

@@ -1,69 +1,95 @@
-import React from "react";
+import React, {useState} from "react";
 import style from "./Contact.module.scss";
 import styleContainer from "../common/styles/Container.module.css";
 import {useFormik} from "formik";
 import emailjs from "@emailjs/browser"
-import * as Yup from 'yup';
+import SuperButton from "../common/components/SuperButton/SuperButton";
+import SuperInputText from "../common/components/SuperInputText/SuperInputText";
+import {Title} from "../common";
 
 export const Contact = () => {
+    const [status, setStatus] = useState(null)
+    const [isLoading, setIsLoading] = useState(false)
     const formik = useFormik({
+        validate: (values) => {
+            if (!values.email) {
+                return {email: 'Email required'}
+            }
+            if (!values.message | values.message.length < 10) {
+                return {message: 'Enter your message'}
+            }
+        },
         initialValues: {
             name: '',
-            telefon: '',
+            phone: '',
             email: '',
             message: ''
         },
-        validationSchema: Yup.object(
-            {
-                name: Yup.string() .required('* Name field is required'),
-                telefon: Yup.number().required('* Telefon number field is required'),
-                email: Yup.string().email('Invalid email address')
-                    .required('* Email field is required'),
-                message: Yup.string().required('* Message field is required')
-            }),
+        onSubmit: (values, {resetForm}) => {
+            setIsLoading(true)
+            emailjs.send(process.env.REACT_APP_FORMIK_SERVICE_ID, process.env.REACT_APP_FORMIK_TEMPLATE_ID, values, process.env.REACT_APP_FORMIK_USER_ID)
 
-        onSubmit: (values) => {
-            try {
+                .then((res) => {
+                    setStatus('message sent')
+                    setTimeout(() => {
+                        setStatus('')
+                    }, 4000)
 
-                emailjs.send(process.env.REACT_APP_FORMIK_SERVICE_ID, process.env.REACT_APP_FORMIK_TEMPLATE_ID, values, process.env.REACT_APP_FORMIK_USER_ID)
+                    resetForm({values: ''})
+                    setIsLoading(false)
 
-            } catch(e) {
-                console.log('hng')
-            }
+                })
+                .catch(error => {
+                    setStatus('Something goes wrong. Try later')
+                    setTimeout(() => {
+                        setStatus('')
+                    }, 4000)
+                    setIsLoading(false)
+                })
+
         }
-
-
     })
 
     return (
         <div id="contact" className={style.contact_wrapper}>
             <div className={styleContainer.container}>
                 <div className={style.contacts}>
-                    <h2 className={style.title}>Contacts</h2>
+                    <Title title='Contacts' />
 
                     <form className={style.form} onSubmit={formik.handleSubmit}>
-                        <label htmlFor="name">Name</label>
-                        <input id='name' name='name' onChange={formik.handleChange}
-                               value={formik.values.name} type={'text'}
-                               className={style.input} placeholder={'Your Name'}/>
-                        <label htmlFor="telefon">Telefon</label>
-                        <input id='telefon' name='telefon' onChange={formik.handleChange}
-                               value={formik.values.telefon} type={'number'}
-                               className={style.input} placeholder={'Your telefon'}/>
-                        <label htmlFor="email">Email</label>
-                        <input id='email' name='email' onChange={formik.handleChange}
-                               value={formik.values.email} type={'email'}
-                               className={style.input} placeholder={'Your email'}/>
+                        <label className={style.label} htmlFor="name">Name</label>
+                        <SuperInputText id='name' name='name'
+                                        onChange={formik.handleChange}
+                                        value={formik.values.name} type={'text'}
+                                                                               placeholder={'Enter your name'}/>
+                        <label className={style.label} htmlFor="phone">Phone number</label>
+                        <SuperInputText id="phone" name='phone'
+                                        onChange={formik.handleChange}
+                                        value={formik.values.phone} type={'number'}
+
+                                        placeholder={'Enter your contact phone number'}/>
+                        <label className={style.label} htmlFor="email">Email</label>
+                        <SuperInputText id='email' name='email'
+                                        onChange={formik.handleChange}
+                                        value={formik.values.email} type={'email'}
+
+                                        placeholder={'Enter your  email'}/>
                         {formik.errors.email && formik.touched.email ?
                             <div>{formik.errors.email}</div> : null}
-                        <label htmlFor="message">Message</label>
-                        <textarea id='message' name='message'
-                                  onChange={formik.handleChange}
-                                  value={formik.values.message} className={style.textarea}
-                                  placeholder={'Message'} rows="4"/>
+
+
+                        <label className={style.label} htmlFor="message">Message</label>
+                        <SuperInputText id='message' name='message'
+                                        onChange={formik.handleChange}
+                                        value={formik.values.message}
+                                        placeholder={'Enter your message'}/>
                         {formik.errors.message && formik.touched.message ?
                             <div>{formik.errors.message}</div> : null}
-                        <button  type='submit'>Submit</button>
+
+                        <SuperButton type='submit'
+                                     disabled={isLoading}>Sent </SuperButton>
+                        {status ? <div className={style.status}>{status}</div> : ''}
+
                     </form>
                 </div>
             </div>
