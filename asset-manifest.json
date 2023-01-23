@@ -1,15 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.489cf6c7.css",
-    "main.js": "/portfolio/static/js/main.69f1b112.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/portfolio/static/css/main.b9d2ff69.css",
+    "main.js": "/portfolio/static/js/main.792bf5c1.js",
+    "static/media/mainFoto.JPEG": "/portfolio/static/media/mainFoto.4508c91be09a7906563f.JPEG",
+    "static/media/flash-cards.jpg": "/portfolio/static/media/flash-cards.edb94b41912b9f867724.jpg",
+    "static/media/pizza.jpg": "/portfolio/static/media/pizza.a48d4e25b6e676707bb8.jpg",
+    "static/media/social.jpg": "/portfolio/static/media/social.c6b61af6c3480360b5b7.jpg",
+    "static/media/logos_sass.svg": "/portfolio/static/media/logos_sass.ab5f7f254b8d6cb40ecf087e97016bca.svg",
+    "static/media/logos_react.svg": "/portfolio/static/media/logos_react.0efffa7ff2fa1f61c6a143a5b6e8091c.svg",
+    "static/media/menu-svgrepo-com.svg": "/portfolio/static/media/menu-svgrepo-com.4a9b80a97358c5117873.svg",
+    "static/media/vscode-icons_file-type-js-official.svg": "/portfolio/static/media/vscode-icons_file-type-js-official.d293871fa9c42620bfca4879e4a9d4bd.svg",
+    "static/media/logos_git-icon.svg": "/portfolio/static/media/logos_git-icon.0dd7ae1bbf4be3567f6c2ca5c76dfb2a.svg",
     "index.html": "/portfolio/index.html",
-    "main.489cf6c7.css.map": "/portfolio/static/css/main.489cf6c7.css.map",
-    "main.69f1b112.js.map": "/portfolio/static/js/main.69f1b112.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "static/media/akar-icons_github-fill.svg": "/portfolio/static/media/akar-icons_github-fill.bed61372d7ae6f20abfc03bc8421b3ae.svg",
+    "static/media/typescript-logo.svg": "/portfolio/static/media/typescript-logo.7c2e5f599fa6ccab4be8a590908ec5bb.svg",
+    "static/media/vscode-icons_file-type-css.svg": "/portfolio/static/media/vscode-icons_file-type-css.1eb725fed80e6cd17129386644d5ddab.svg",
+    "static/media/vscode-icons_file-type-html.svg": "/portfolio/static/media/vscode-icons_file-type-html.0dc5a4006e7f3710611d893a3201278a.svg",
+    "static/media/hide_pass.svg": "/portfolio/static/media/hide_pass.a0f78739c8ba88c84861aff52f017ed2.svg",
+    "static/media/show_pass.svg": "/portfolio/static/media/show_pass.6b05b371fdeb813940d523864aca7812.svg",
+    "static/media/material-ui-1.svg": "/portfolio/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
+    "main.b9d2ff69.css.map": "/portfolio/static/css/main.b9d2ff69.css.map",
+    "main.792bf5c1.js.map": "/portfolio/static/js/main.792bf5c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.489cf6c7.css",
-    "static/js/main.69f1b112.js"
+    "static/css/main.b9d2ff69.css",
+    "static/js/main.792bf5c1.js"
   ]
 }
