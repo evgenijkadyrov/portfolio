@@ -15,10 +15,12 @@ import {
   muiIcon,
   reduxIcon,
 } from "../assets";
+import Fade from "react-reveal/Fade";
 
 export const Skills = () => (
   <div id="skills" className={style.skills_wrapper}>
     <div className={`${styleContainer.container} ${style.skills_container}`}>
+      <Fade right>
       <Title title="My Tech Stack" />
       <div className={style.skills}>
         <Skill
@@ -72,6 +74,7 @@ export const Skills = () => (
           icon={githubIcon}
         />
       </div>
+      </Fade>
     </div>
   </div>
 );

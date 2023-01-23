@@ -67,9 +67,7 @@
     }
 
     .foto {
-
       img {
-
         transition: 1s;
         border-radius: 5%;
         max-width: 450px;
@@ -83,6 +81,12 @@
 
         &:hover {
           transform: scale(1.25);
+        }
+        @media screen and (max-width: 550px) {
+          max-width: 350px;
+        }
+        @media screen and (max-width:450px) {
+          max-width: 275px;
         }
 
       }

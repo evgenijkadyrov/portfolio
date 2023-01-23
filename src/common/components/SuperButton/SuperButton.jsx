@@ -2,7 +2,7 @@ import React from 'react'
 import s from './SuperButton.module.scss'
 
 
-const SuperButton = (
+export const SuperButton = (
     {
         className,
         btnStyle,
@@ -29,4 +29,4 @@ const SuperButton = (
     )
 }
 
-export default SuperButton
+

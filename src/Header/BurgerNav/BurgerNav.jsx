@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import style from "./BurgerNav.module.scss";
 import {LinkContainer} from "../../common";
+import {iconMenu} from "../../assets";
 
 export const BurgerNav = () => {
 const [openBurger,setOpenBurger]=useState(false)
@@ -16,7 +17,7 @@ const [openBurger,setOpenBurger]=useState(false)
                 <LinkContainer id="projects" title="Projects"/>
                 <LinkContainer id="contact" title="Contacts"/>
             </div>
-            <div className={style.burgerButton} onClick={hadleButtonBurger}>--</div>
+            <div className={style.burgerButton} onClick={hadleButtonBurger}></div>
         </div>
     );
 };

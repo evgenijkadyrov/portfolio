@@ -4,7 +4,7 @@ import showValue from '../../../assets/icons/show_pass.svg'
 import hideValue from '../../../assets/icons/hide_pass.svg'
 
 
-const SuperInputText = (
+export const SuperInputText = (
     {
         type,
         passwordType,
@@ -67,4 +67,3 @@ const SuperInputText = (
     )
 }
 
-export default SuperInputText

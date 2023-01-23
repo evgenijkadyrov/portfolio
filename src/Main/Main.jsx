@@ -8,7 +8,7 @@ import { ParticlesContainer, Emoji, TypeWriter } from "../common";
 export const Main = () => (
   <div id="main" className={style.main_wrapper}>
     <ParticlesContainer />
-    <Fade top cascade>
+    <Fade left cascade>
       <div className={`${styleContainer.container} ${style.container}`}>
         <div className={style.introduce}>
           <p>

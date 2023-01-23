@@ -3,10 +3,8 @@ import style from "./Contact.module.scss";
 import styleContainer from "../common/styles/Container.module.css";
 import {useFormik} from "formik";
 import emailjs from "@emailjs/browser"
-import SuperButton from "../common/components/SuperButton/SuperButton";
-import SuperInputText from "../common/components/SuperInputText/SuperInputText";
-import {Title} from "../common";
-
+import {Title,SuperButton,SuperInputText} from "../common";
+import Fade from "react-reveal/Fade";
 export const Contact = () => {
     const [status, setStatus] = useState(null)
     const [isLoading, setIsLoading] = useState(false)
@@ -54,6 +52,7 @@ export const Contact = () => {
         <div id="contact" className={style.contact_wrapper}>
             <div className={styleContainer.container}>
                 <div className={style.contacts}>
+                    <Fade right>
                     <Title title='Contacts' />
 
                     <form className={style.form} onSubmit={formik.handleSubmit}>
@@ -91,6 +90,7 @@ export const Contact = () => {
                         {status ? <div className={style.status}>{status}</div> : ''}
 
                     </form>
+                    </Fade>
                 </div>
             </div>
         </div>

@@ -10,7 +10,8 @@ import muiIcon from "./icons/material-ui-1.svg";
 import reduxIcon from "./icons/material-ui-1.svg";
 import todoImage from "./image/todolist.jpg";
 import socialImage from "./image/social.jpg";
-import cardImage from "./image/cards.jpeg";
+import cardImage from "./image/flash-cards.jpg";
+import pizza from "./image/pizza.jpg";
 
 export {
   htmlIcon,
@@ -26,4 +27,5 @@ export {
   todoImage,
   socialImage,
   cardImage,
+pizza
 };

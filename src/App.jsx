@@ -4,7 +4,7 @@ import { Main } from "./Main/Main";
 import { Skills } from "./Skills/Skills";
 import { Projects } from "./Projects/Projects";
 import { Contact } from "./Contact/Contact";
-import Footer from "./Footer/Footer";
+import {Footer} from "./Footer/Footer";
 import styles from "./App.module.scss";
 
 export const App = () => (

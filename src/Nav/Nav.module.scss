@@ -2,15 +2,20 @@
 
 .nav {
   width: 350px;
+  margin-right: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   a {
     text-decoration: none;
+    font-family: $TitleFontFamily;
+    font-weight: 400;
+    line-height: 20px;
     color: $textColor;
-    font-size: 20px;
+    font-size: 22px;
     scroll-behavior: smooth;
+
 
     &:hover {
       cursor: pointer;
@@ -19,7 +24,7 @@
   }
 
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 376px) {
     display: none;
 
 

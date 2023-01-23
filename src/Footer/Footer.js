@@ -6,13 +6,13 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <div className={style.footer_wrapper}>
       <div className={`${styleContainer.container} ${style.container}`}>
         <div className={style.items}>
           <div className={style.icon}>
-            <a href={""} target={"_blank"}>
+            <a href={"https://www.linkedin.com/in/yauheni-kadyrau-29a9181b6/"} target={"_blank"}>
               <FontAwesomeIcon
                 className={style.icon}
                 icon={faLinkedin}
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
 
           <div className={style.icon}>
-            <a href={""} target={"_blank"}>
+            <a href={"https://t.me/ky880216"} target={"_blank"}>
               <FontAwesomeIcon
                 className={style.icon}
                 icon={faTelegram}
@@ -45,4 +45,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+
