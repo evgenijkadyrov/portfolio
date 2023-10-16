@@ -31,7 +31,7 @@ export const Footer = () => {
           </div>
 
           <div className={style.icon}>
-            <a href={"https://t.me/ky880216"} target={"_blank"}>
+            <a href={"https://t.me/yauhen_front"} target={"_blank"}>
               <FontAwesomeIcon
                 className={style.icon}
                 icon={faTelegram}

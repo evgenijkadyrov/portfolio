@@ -18,7 +18,7 @@ export const Projects = () => (
                     backgroundImage: `url(${pizza})`,
                 }}
                 title="Pizza-store"
-                url={"https://github.com/evgenijkadyrov/pizza-store"}
+                url={"https://github.com/evgenijkadyrov/pizza"}
                 description="Stack: React, Redux, JS, Redux-thunks, Hooks.
 Pizza-store app with using react hooks, routing,  working with json-server.."
             />
