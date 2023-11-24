@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b9d2ff69.css",
-    "main.js": "/portfolio/static/js/main.664d47c1.js",
+    "main.js": "/portfolio/static/js/main.39d923b7.js",
     "static/media/mainFoto.JPEG": "/portfolio/static/media/mainFoto.4508c91be09a7906563f.JPEG",
+    "static/media/coffee2.jpg": "/portfolio/static/media/coffee2.9393af50d61077a09875.jpg",
+    "static/media/coffee.jpg": "/portfolio/static/media/coffee.a92b7c30104d5e37863c.jpg",
     "static/media/flash-cards.jpg": "/portfolio/static/media/flash-cards.edb94b41912b9f867724.jpg",
     "static/media/pizza.jpg": "/portfolio/static/media/pizza.a48d4e25b6e676707bb8.jpg",
     "static/media/social.jpg": "/portfolio/static/media/social.c6b61af6c3480360b5b7.jpg",
     "static/media/logos_sass.svg": "/portfolio/static/media/logos_sass.ab5f7f254b8d6cb40ecf087e97016bca.svg",
     "static/media/logos_react.svg": "/portfolio/static/media/logos_react.0efffa7ff2fa1f61c6a143a5b6e8091c.svg",
+    "static/media/nextjs-icon-svgrepo-com.svg": "/portfolio/static/media/nextjs-icon-svgrepo-com.e3c042b9d9d809ebb67e9bc6e1e5f70d.svg",
     "static/media/menu-svgrepo-com.svg": "/portfolio/static/media/menu-svgrepo-com.4a9b80a97358c5117873.svg",
+    "static/media/redux-logo-svgrepo-com.svg": "/portfolio/static/media/redux-logo-svgrepo-com.59f428ebf1c8b3a3fcec9ee28b57c9da.svg",
     "static/media/vscode-icons_file-type-js-official.svg": "/portfolio/static/media/vscode-icons_file-type-js-official.d293871fa9c42620bfca4879e4a9d4bd.svg",
     "static/media/logos_git-icon.svg": "/portfolio/static/media/logos_git-icon.0dd7ae1bbf4be3567f6c2ca5c76dfb2a.svg",
     "index.html": "/portfolio/index.html",
@@ -18,12 +22,13 @@
     "static/media/vscode-icons_file-type-html.svg": "/portfolio/static/media/vscode-icons_file-type-html.0dc5a4006e7f3710611d893a3201278a.svg",
     "static/media/hide_pass.svg": "/portfolio/static/media/hide_pass.a0f78739c8ba88c84861aff52f017ed2.svg",
     "static/media/show_pass.svg": "/portfolio/static/media/show_pass.6b05b371fdeb813940d523864aca7812.svg",
+    "static/media/icons8-chakra-ui.svg": "/portfolio/static/media/icons8-chakra-ui.3cc0dcf33272ae6294329e6a24f995e9.svg",
     "static/media/material-ui-1.svg": "/portfolio/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "main.b9d2ff69.css.map": "/portfolio/static/css/main.b9d2ff69.css.map",
-    "main.664d47c1.js.map": "/portfolio/static/js/main.664d47c1.js.map"
+    "main.39d923b7.js.map": "/portfolio/static/js/main.39d923b7.js.map"
   },
   "entrypoints": [
     "static/css/main.b9d2ff69.css",
-    "static/js/main.664d47c1.js"
+    "static/js/main.39d923b7.js"
   ]
 }
