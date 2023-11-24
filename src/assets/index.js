@@ -7,7 +7,9 @@ import gitIcon from "./icons/logos_git-icon.svg";
 import jsIcon from "./icons/vscode-icons_file-type-js-official.svg";
 import tsIcon from "./icons/typescript-logo.svg";
 import muiIcon from "./icons/material-ui-1.svg";
-import reduxIcon from "./icons/material-ui-1.svg";
+import chakraIcon from "./icons/icons8-chakra-ui.svg";
+import reduxIcon from "./icons/redux-logo-svgrepo-com.svg";
+import nextIcon from "./icons/nextjs-icon-svgrepo-com.svg";
 import todoImage from "./image/todolist.jpg";
 import socialImage from "./image/social.jpg";
 import cardImage from "./image/flash-cards.jpg";
@@ -25,6 +27,8 @@ export {
   jsIcon,
   tsIcon,
   muiIcon,
+  chakraIcon,
+  nextIcon,
   reduxIcon,
   todoImage,
   socialImage,
