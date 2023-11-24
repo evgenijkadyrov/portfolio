@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import style from "./BurgerNav.module.scss";
 import {LinkContainer} from "../../common";
-import {iconMenu} from "../../assets";
 
 export const BurgerNav = () => {
 const [openBurger,setOpenBurger]=useState(false)
