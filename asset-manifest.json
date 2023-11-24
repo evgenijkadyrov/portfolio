@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b9d2ff69.css",
-    "main.js": "/portfolio/static/js/main.39d923b7.js",
+    "main.js": "/portfolio/static/js/main.cdccbe3b.js",
     "static/media/mainFoto.JPEG": "/portfolio/static/media/mainFoto.4508c91be09a7906563f.JPEG",
     "static/media/coffee2.jpg": "/portfolio/static/media/coffee2.9393af50d61077a09875.jpg",
     "static/media/coffee.jpg": "/portfolio/static/media/coffee.a92b7c30104d5e37863c.jpg",
@@ -25,10 +25,10 @@
     "static/media/icons8-chakra-ui.svg": "/portfolio/static/media/icons8-chakra-ui.3cc0dcf33272ae6294329e6a24f995e9.svg",
     "static/media/material-ui-1.svg": "/portfolio/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "main.b9d2ff69.css.map": "/portfolio/static/css/main.b9d2ff69.css.map",
-    "main.39d923b7.js.map": "/portfolio/static/js/main.39d923b7.js.map"
+    "main.cdccbe3b.js.map": "/portfolio/static/js/main.cdccbe3b.js.map"
   },
   "entrypoints": [
     "static/css/main.b9d2ff69.css",
-    "static/js/main.39d923b7.js"
+    "static/js/main.cdccbe3b.js"
   ]
 }
