@@ -12,6 +12,8 @@ import todoImage from "./image/todolist.jpg";
 import socialImage from "./image/social.jpg";
 import cardImage from "./image/flash-cards.jpg";
 import pizza from "./image/pizza.jpg";
+import coffee from "./image/coffee.jpg";
+import coffee2 from "./image/coffee2.jpg";
 
 export {
   htmlIcon,
@@ -27,5 +29,7 @@ export {
   todoImage,
   socialImage,
   cardImage,
-pizza
+pizza,
+  coffee,
+    coffee2
 };
